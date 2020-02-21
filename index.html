@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ирвас</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="blocks/switcher/switcher.js"></script>
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="/blocks/template/template.css"/>
+        <link rel="stylesheet" href="/blocks/container/container.css"/>
+        <link rel="stylesheet" href="/blocks/flex-container/flex-container.css"/>
+        <link rel="stylesheet" href="/blocks/logo/logo.css"/>
+        <link rel="stylesheet" href="/blocks/button/button.css"/>
+        <link rel="stylesheet" href="/blocks/form/form.css"/>
+        <link rel="stylesheet" href="/blocks/field/field.css"/>
+        <link rel="stylesheet" href="/blocks/link/link.css"/>
+        <link rel="stylesheet" href="/blocks/title/title.css"/>
+        <link rel="stylesheet" href="/blocks/sticker/sticker.css"/>
+        <link rel="stylesheet" href="/blocks/switcher/switcher.css"/>
+        <link rel="stylesheet" href="/blocks/header/header.css"/>
+        <link rel="stylesheet" href="/blocks/section/section.css"/>
+        <link rel="stylesheet" href="/blocks/section-offer/section-offer.css"/>
+        <link rel="stylesheet" href="/blocks/section-glazing/section-glazing.css"/>
+        <link rel="stylesheet" href="/blocks/section-facing/section-facing.css"/>
+        <link rel="stylesheet" href="/blocks/section-guarantees/section-guarantees.css"/>
+        <link rel="stylesheet" href="/blocks/section-location/section-location.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header container flex-container">
+            <div class="logo flex-container">
+                <figure class="logo__img"></figure>
+                <div class="header__text header__text_color_blue logo__slogan">
+                    Остекление балконов и лоджий
+                    <br/>
+                    в Москве и Московской области
+                </div>
+            </div>
+            <button class="button button_size_s button_theme_simple-green button_theme_with-icon header__button">
+                Вызвать<br/>замерщика
+            </button>
+            <div class="header__job-time flex-container">
+                <div class="header__icon-clock"></div>
+                <div>
+                    <div class="header__text">без выходных</div>
+                    <time datetime="9h" class="header__text header__text_size_m">9:00 - 18:00</time>
+                </div>
+            </div>
+            <div class="header__info-phone">
+                <div class="flex-container">
+                    <div class="header__icon-phone"></div>
+                    <address class="header__text header__phone">
+                        <a class="link" href="tel:+74956466171">+7 (495) 646-61-71</a>
+                    </address>
+                </div>
+                <div class="header__text header__text_color_blue header__text_underline">Заказать обратный звонок</div>
+            </div>
+        </header>
+        <main>
+            <section class="template template_img_2-people">
+                <div class="container section flex-container_adaptive section-offer">
+                    <div>
+                        <div class="section-offer__text-container">
+                            <div class="section-offer__small-text">Остекление балконов "под ключ"</div>
+                            <div class="section-offer__big-text">за 12 800 рублей!</div>
+                        </div>
+                        <div class="section-offer__stickers">
+                            <div class="sticker sticker_theme_circle section-offer__sticker">
+                                <div class="sticker__icon sticker__icon_img_quality"></div>
+                                <div class="sticker__text">Высокое<br/>качество</div>
+                            </div>
+                            <div class="sticker sticker_theme_circle section-offer__sticker">
+                                <div class="sticker__icon sticker__icon_img_time"></div>
+                                <div class="sticker__text">Быстрый<br/>монтаж</div>
+                            </div>
+                            <div class="sticker sticker_theme_circle section-offer__sticker">
+                                <div class="sticker__icon sticker__icon_img_calendar"></div>
+                                <div class="sticker__text">Гарантия<br/>3 года</div>
+                            </div>
+                            <div class="sticker sticker_theme_circle section-offer__sticker">
+                                <div class="sticker__icon sticker__icon_img_delivery"></div>
+                                <div class="sticker__text">Вывоз<br/>мусора</div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="form section-offer__form">
+                        <div class="form__title">
+                            <div class="form__text form__text_size_s">Запишитесь сегодня на</div><br/>
+                            <div class="form__text form__text_uppercase form__text_size_m">бесплатный замер</div>
+                        </div>
+                        <input type="text" class="field" placeholder="Введите ваше имя"/>
+                        <input type="text" class="field" placeholder="+7 (___) ___-__-__"/>
+                        <input type="submit" class="button button__size_l form__button" value="Вызвать замерщика!" />
+                        <div class="form__footnote">Ваши данные конфиденциальны</div>
+                    </form>
+                </div>
+            </section>
+            <section class="template">
+                <div class="container section section-glazing">
+                    <div class="title">Остекление балконов и лоджий</div>
+                    <div class="flex-container_adaptive">
+                        <div class="section-glazing__variant">
+                            <div class="section-glazing__variant-title">Холодное</div>
+                            <figure class="section-glazing__variant-figure section-glazing__variant-figure_cold"></figure>
+                            <div class="section-glazing__variant-list">
+                                <div class="flex-container section-glazing__variant-list-item">Конструктивная толщина 42-58 мм</div>
+                                <div class="flex-container section-glazing__variant-list-item">Остекление: полированное стекло (толщиной 4-5 мм)</div>
+                                <div class="flex-container section-glazing__variant-list-item">Теплоизоляция: 0,07 м2 С/Вт</div>
+                                <div class="flex-container section-glazing__variant-list-item">Звукоизоляция: 20-27 дб</div>
+                            </div>
+                            <div class="section-glazing__variant-footer">
+                                <div class="section-glazing__variant-price">
+                                    <div class="section-glazing__variant-price-value">2600 руб.кв.м.</div>
+                                    <div class="section-glazing__variant-price-condition">Под ключ с установкой</div>
+                                </div>
+                                <button class="button button_size_m section-glazing__button">Рассчитать стоимость</button>
+                            </div>
+                        </div>
+                        <div class="section-glazing__variant section-glazing__variant_color_orange">
+                            <div class="section-glazing__variant-title">Теплое</div>
+                            <figure class="section-glazing__variant-figure section-glazing__variant-figure_warm"></figure>
+                            <div class="section-glazing__variant-list">
+                                <div class="flex-container section-glazing__variant-list-item">Конструктивная толщина 58-78 мм</div>
+                                <div class="flex-container section-glazing__variant-list-item">Остекление: однокамерные и двухкамерные стеклопакеты</div>
+                                <div class="flex-container section-glazing__variant-list-item">Теплоизоляция: 0,63 - 1,05 м2 С/Вт</div>
+                                <div class="flex-container section-glazing__variant-list-item">Звукоизоляция: до 5 класса</div>
+                            </div>
+                            <div class="section-glazing__variant-footer">
+                                <div class="section-glazing__variant-price">
+                                    <div class="section-glazing__variant-price-value">4000 руб.кв.м.</div>
+                                    <div class="section-glazing__variant-price-condition">Под ключ с установкой</div>
+                                </div>
+                                <button class="button button_size_m section-glazing__button">Рассчитать стоимость</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="template template_color_gray">
+                <div class="container section section-facing">
+                    <div class="title">Закажите отделку балкона со скидкой 60!</div>
+                    <div class="switcher">
+                        <ul class="switcher__nav flex-container">
+                            <li class="switcher__item switcher__item_active" switch="switcher__container_internal">
+                                <div class="switcher__item-text">Внутренняя отделка</div>
+                            </li>
+                            <li class="switcher__item" switch="switcher__container_external">
+                                <div class="switcher__item-text">Внешняя отделка</div>
+                            </li>
+                            <li class="switcher__item" switch="switcher__container_remote">
+                                <div class="switcher__item-text">Выносное остекление</div>
+                            </li>
+                            <li class="switcher__item" switch="switcher__container_roof">
+                                <div class="switcher__item-text">Крыша на балкон</div>
+                            </li>
+                        </ul>
+                        <div class="flex-container_adaptive">
+                            <div class="switcher__container switcher__container_internal switcher__container_visible">
+                                <div class="switcher__container-title">
+                                    <div class="switcher__item-text">Внутренняя отделка</div>
+                                </div>
+                                <div class="flex-container">
+                                    <figure class="section-facing__img section-facing__img_internal"></figure>
+                                    <div class="section-facing__central">
+                                        <div class="section-facing__probe-list">
+                                            <div class="section-facing__probe section-facing__probe_size_l">
+                                                <div class="section-facing__probe-img section-facing__probe-img_lining"></div>
+                                                <div class="section-facing__probe-text section-facing__probe-text_size_s">Вагонка</div>
+                                                <div class="section-facing__pricing section-facing__pricing_center">
+                                                    <div class="section-facing__pricing-price">600 руб. кв. м</div>
+                                                    <div class="section-facing__pricing-text">с материалом</div>
+                                                </div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_l">
+                                                <div class="section-facing__probe-img section-facing__probe-img_plastic"></div>
+                                                <div class="section-facing__probe-text">Пластиковая<br/>вагонка</div>
+                                                <div class="section-facing__pricing section-facing__pricing_center">
+                                                    <div class="section-facing__pricing-price">750 руб. кв. м</div>
+                                                    <div class="section-facing__pricing-text">с материалом</div>
+                                                </div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_l">
+                                                <div class="section-facing__probe-img section-facing__probe-img_pvc"></div>
+                                                <div class="section-facing__probe-text">ПВХ-панели</div>
+                                                <div class="section-facing__pricing section-facing__pricing_center">
+                                                    <div class="section-facing__pricing-price">800 руб. кв. м</div>
+                                                    <div class="section-facing__pricing-text">с материалом</div>
+                                                </div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_l">
+                                                <div class="section-facing__probe-img section-facing__probe-img_laminate"></div>
+                                                <div class="section-facing__probe-text">Настил пола<br/>из ламината</div>
+                                                <div class="section-facing__pricing section-facing__pricing_center">
+                                                    <div class="section-facing__pricing-price">1250 руб. кв. м</div>
+                                                    <div class="section-facing__pricing-text">с материалом</div>
+                                                </div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_l">
+                                                <div class="section-facing__probe-img section-facing__probe-img_tree"></div>
+                                                <div class="section-facing__probe-text">Настил пола<br/>из дерева</div>
+                                                <div class="section-facing__pricing section-facing__pricing_center">
+                                                    <div class="section-facing__pricing-price">1650 руб. кв. м</div>
+                                                    <div class="section-facing__pricing-text">с материалом</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="switcher__container switcher__container_external">
+                                <div class="switcher__container-title">
+                                    <div class="switcher__item-text">Внешняя отделка</div>
+                                </div>
+                                <div class="flex-container">
+                                    <figure class="section-facing__img section-facing__img_external"></figure>
+                                    <div class="section-facing__central">
+                                        <div class="section-facing__title">Большой выбор цветов винилового сайдинга</div>
+                                        <div class="section-facing__probe-list">
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-white"></div>
+                                                <div class="section-facing__probe-text">Белый</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-smoky"></div>
+                                                <div class="section-facing__probe-text">Дымчатый</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-cream"></div>
+                                                <div class="section-facing__probe-text">Кремовый</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-lemon"></div>
+                                                <div class="section-facing__probe-text">Лимонный</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-pink"></div>
+                                                <div class="section-facing__probe-text">Розовый</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-salad"></div>
+                                                <div class="section-facing__probe-text">Салатовый</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-gray"></div>
+                                                <div class="section-facing__probe-text">Светло-серый</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-bluegray"></div>
+                                                <div class="section-facing__probe-text">Серо-голубой</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-greengray"></div>
+                                                <div class="section-facing__probe-text">Серо-зелёный</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_size_m">
+                                                <div class="section-facing__probe-img section-facing__probe-img_bg-beige"></div>
+                                                <div class="section-facing__probe-text">Бежевый</div>
+                                            </div>
+                                        </div>
+                                        <div class="section-facing__pricing">
+                                            <div class="section-facing__pricing-price">1 800 руб./м2</div>
+                                            <div class="section-facing__pricing-text">с материалом</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="switcher__container switcher__container_remote">
+                                <div class="switcher__container-title">
+                                    <div class="switcher__item-text">Выносное остекление</div>
+                                </div>
+                                <div class="flex-container">
+                                    <figure class="section-facing__img section-facing__img_remote"></figure>
+                                    <div class="section-facing__central">
+                                        <div class="section-facing__title">Что вам даст остекление балкона с выносом?</div>
+                                        <div>
+                                            <div class="section-facing__probe section-facing__probe_line section-facing__probe_size_s">
+                                                <div class="section-facing__probe-img_square section-facing__probe-img section-facing__probe-img_wide"></div>
+                                                <div class="section-facing__probe-text">Балкон просторнее<br/>на 30-40 см</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_line section-facing__probe_size_s">
+                                                <div class="section-facing__probe-img_square section-facing__probe-img section-facing__probe-img_windowsill"></div>
+                                                <div class="section-facing__probe-text">Широкий<br/>подоконник</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_line section-facing__probe_size_s">
+                                                <div class="section-facing__probe-img_square section-facing__probe-img section-facing__probe-img_temperature"></div>
+                                                <div class="section-facing__probe-text">Дополнительная<br/>теплоизоляция</div>
+                                            </div>
+                                        </div>
+                                        <div class="section-facing__pricing">
+                                            <div class="section-facing__pricing-price">1800 руб/м2</div>
+                                            <div class="section-facing__pricing-text">с материалом</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="switcher__container switcher__container_roof">
+                                <div class="switcher__container-title">
+                                    <div class="switcher__item-text">Крыша на балкон</div>
+                                </div>
+                                <div class="flex-container">
+                                    <figure class="section-facing__img section-facing__img_roof"></figure>
+                                    <div class="section-facing__central">
+                                        <div class="section-facing__title">Монтаж крыши</div>
+                                        <div class="section-facing__probe-list">
+                                            <div class="section-facing__probe section-facing__probe_line section-facing__probe_size_s">
+                                                <div class="section-facing__probe-img section-facing__probe-img_ondylin"></div>
+                                                <div class="section-facing__probe-text">Ондулин</div>
+                                            </div>
+                                            <div class="section-facing__probe section-facing__probe_line section-facing__probe_size_s">
+                                                <div class="section-facing__probe-img section-facing__probe-img_metal"></div>
+                                                <div class="section-facing__probe-text">Металлочерепица</div>
+                                            </div>
+                                        </div>
+                                        <div class="section-facing__pricing">
+                                            <div class="section-facing__pricing-price">1800 руб/м2</div>
+                                            <div class="section-facing__pricing-text">на деревянной обрешётке</div>
+                                        </div>
+                                        <div class="section-facing__pricing">
+                                            <div class="section-facing__pricing-price">1800 руб/м2</div>
+                                            <div class="section-facing__pricing-text">на металлической платформе</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <form class="form section-facing__form">
+                                <div class="form__title">
+                                    <div class="form__text form__text_size_s">Запишитесь сегодня на</div><br/>
+                                    <div class="form__text form__text_uppercase form__text_size_m">бесплатный замер</div>
+                                </div>
+                                <input type="text" class="field" placeholder="Введите ваше имя"/>
+                                <input type="text" class="field" placeholder="+7 (___) ___-__-__"/>
+                                <input type="submit" class="button button__size_l form__button" value="Вызвать замерщика!" />
+                                <div class="form__footnote">Ваши данные конфиденциальны</div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="template template_color_blue">
+                <div class="container section section-guarantees">
+                    <div class="title title_theme_light">Мы гарантируем вам</div>
+                    <div class="section-guarantees__stickers">
+                        <div class="sticker sticker_theme_simple">
+                            <div class="sticker__icon sticker__icon_img_medal"></div>
+                            <div class="sticker__text">Высокое качество</div>
+                        </div>
+                        <div class="sticker">
+                            <div class="sticker__icon sticker__icon_img_list"></div>
+                            <div class="sticker__text">Выполнение работ<br/>под ключ</div>
+                        </div>
+                        <div class="sticker">
+                            <div class="sticker__icon sticker__icon_img_clock"></div>
+                            <div class="sticker__text">Монтаж в короткие<br/>сроки</div>
+                        </div>
+                        <div class="sticker">
+                            <div class="sticker__icon sticker__icon_img_pig"></div>
+                            <div class="sticker__text">Цены<br/>от производителя</div>
+                        </div>
+                        <div class="sticker">
+                            <div class="sticker__icon sticker__icon_img_tool"></div>
+                            <div class="sticker__text">Бесплатный замер<br/>и консультацию</div>
+                        </div>
+                        <div class="sticker">
+                            <div class="sticker__icon sticker__icon_img_donation"></div>
+                            <div class="sticker__text">Тепло и уют<br/>на балконе</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="template">
+                <div class="container section section-location">
+                    <div class="title">Как нас найти</div>
+                    <div class="flex-container_adaptive">
+                        <figure class="section-location__map"></figure>
+                        <div class="section-location__contacts">
+                            <div class="section-location__contact">
+                                <div class="section-location__contact-title">Юридический адрес:</div>
+                                <address class="section-location__contact-text">ООО «ИРВАС», 127411, г.Москва, Дмитровское шоссе, д.125, корпус 1</address>
+                            </div>
+                            <div class="section-location__contact">
+                                <div class="section-location__contact-title">Фактический адрес:</div>
+                                <address class="section-location__contact-text">ООО «ИРВАС», 141031, МО, Мытищинский р-он, п.Вешки, Выставочная, д.53</address>
+                            </div>
+                            <div class="section-location__contact">
+                                <div class="section-location__contact-title">Телефон:</div>
+                                <address class="section-location__contact-text">+7 (495) 646-61- 71 (многоканальный)</address>
+                            </div>
+                            <div class="section-location__contact">
+                                <div class="section-location__contact-title">E-mail:</div>
+                                <address class="section-location__contact-text">info@irvasokna.ru</address>
+                            </div>
+                            <div class="section-location__contact">
+                                <div class="section-location__contact-title">Режим работы:</div>
+                                <div class="section-location__contact-text">9:00 - 18:00 без выходных</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>

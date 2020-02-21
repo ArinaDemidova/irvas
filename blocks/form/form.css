@@ -1,0 +1,56 @@
+.form
+{
+  border-radius    : 10px;
+  width            : 370px;
+  padding          : 40px 50px;
+  background-color : #ffffff;
+}
+
+.form__title
+{
+  text-align    : center;
+  margin-bottom : 40px;
+}
+
+.form__text
+{
+  font-family : 'Open Sans', sans-serif;
+  font-weight : bold;
+}
+
+.form__text_size_m
+{
+  font-size : 24px;
+}
+
+.form__text_size_s
+{
+  font-size : 20px;
+}
+
+.form__text_uppercase
+{
+  text-transform : uppercase;
+}
+
+.form__button
+{
+  width : 100%;
+}
+
+.form__footnote
+{
+  font-family : 'Open Sans Condensed', sans-serif;
+  text-align  : center;
+  font-size   : 11px;
+  margin-top  : 20px;
+  color       : #d1d1d1;
+}
+
+@media screen and (max-width : 1024px)
+{
+  .form
+  {
+    padding : 40px 30px;
+  }
+}

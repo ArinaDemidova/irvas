@@ -1,0 +1,19 @@
+.flex-container
+{
+  display     : flex;
+  align-items : center;
+}
+
+.flex-container_adaptive
+{
+  display         : flex;
+  justify-content : space-between;
+}
+
+@media screen and (max-width : 768px)
+{
+  .flex-container_adaptive
+  {
+    display : block;
+  }
+}

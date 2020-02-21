@@ -1,0 +1,29 @@
+.template
+{
+  width : 100%;
+}
+
+.template_img_2-people
+{
+  background      : url(template_img_2-people.png) no-repeat center;
+  background-size : cover;
+}
+
+.template_color_gray
+{
+  background-color : #f7f7f7;
+}
+
+.template_color_blue
+{
+  background-color : #0787c6;
+}
+
+@media screen and (max-width : 425px)
+{
+  .template_img_2-people
+  {
+    background-size     : initial;
+    background-position : top center;
+  }
+}

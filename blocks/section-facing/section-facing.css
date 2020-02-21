@@ -1,0 +1,290 @@
+.section-facing__img
+{
+  flex-shrink : 0;
+  height      : 440px;
+  width       : 300px;
+}
+
+.section-facing__central
+{
+  margin : 0 5%;
+}
+
+.section-facing__img_internal
+{
+  background-image : url(section-facing__img_internal.png);
+}
+
+.section-facing__img_external
+{
+  background-image : url(section-facing__img_external.png);
+}
+
+.section-facing__img_remote
+{
+  background-image : url(section-facing__img_remote.png);
+}
+
+.section-facing__img_roof
+{
+  background-image : url(section-facing__img_roof.png);
+}
+
+.section-facing__title
+{
+  font-weight : bold;
+  font-size   : 14px;
+}
+
+.section-facing__probe-list
+{
+  display     : flex;
+  flex-wrap   : wrap;
+  align-items : flex-start;
+}
+
+.section-facing__probe
+{
+  margin-top   : 35px;
+  margin-right : 5px;
+}
+
+.section-facing__probe-img
+{
+  border-radius : 50%;
+  margin        : 0 auto;
+}
+
+.section-facing__probe-text
+{
+  text-align : center;
+  margin-top : 15px;
+}
+
+.section-facing__probe_line
+{
+  display     : flex;
+  align-items : center;
+}
+
+.section-facing__probe_line .section-facing__probe-img
+{
+  margin-right : 15px;
+}
+
+.section-facing__probe_line .section-facing__probe-text
+{
+  text-align : left;
+  margin-top : 0;
+}
+
+.section-facing__probe-img_square
+{
+  border-radius : 0;
+}
+
+.section-facing__probe-img_lining
+{
+  background-image : url(section-facing__img_lining.png);
+}
+
+.section-facing__probe-img_plastic
+{
+  background-image : url(section-facing__img_plastic.png);
+}
+
+.section-facing__probe-img_pvc
+{
+  background-image : url(section-facing__img_pvc.png);
+}
+
+.section-facing__probe-img_laminate
+{
+  background-image : url(section-facing__img_laminate.png);
+}
+
+.section-facing__probe-img_tree
+{
+  background-image : url(section-facing__img_tree.png);
+}
+
+.section-facing__probe-img_ondylin
+{
+  background-image : url(section-facing__img_ondylin.png);
+}
+
+.section-facing__probe-img_metal
+{
+  background-image : url(section-facing__img_metal.png);
+}
+
+.section-facing__probe-img_wide
+{
+  margin     : initial;
+  background : url(section-facing__img_wide.png) no-repeat center;
+}
+
+.section-facing__probe-img_windowsill
+{
+  margin     : initial;
+  background : url(section-facing__img_windowsill.png) no-repeat center;
+}
+
+.section-facing__probe-img_temperature
+{
+  margin     : initial;
+  background : url(section-facing__img_temperature.png) no-repeat center;
+}
+
+.section-facing__probe-img_bg-white
+{
+  background-color : #ffffff;
+}
+
+.section-facing__probe-img_bg-smoky
+{
+  background-color : #434b5a;
+}
+
+.section-facing__probe-img_bg-cream
+{
+  background-color : #f8f0d3;
+}
+
+.section-facing__probe-img_bg-lemon
+{
+  background-color : #faf49b;
+}
+
+.section-facing__probe-img_bg-pink
+{
+  background-color : #f8b6b6;
+}
+
+.section-facing__probe-img_bg-salad
+{
+  background-color : #d3f8dc;
+}
+
+.section-facing__probe-img_bg-gray
+{
+  background-color : #e4e4e4;
+}
+
+.section-facing__probe-img_bg-bluegray
+{
+  background-color : #878f9f;
+}
+
+.section-facing__probe-img_bg-greengray
+{
+  background-color : #879f90;
+}
+
+.section-facing__probe-img_bg-beige
+{
+  background-color : #ddd7c2;
+}
+
+.section-facing__probe_size_l
+{
+  flex-basis : 120px;
+}
+
+.section-facing__probe_size_l .section-facing__probe-img
+{
+  width  : 70px;
+  height : 70px;
+}
+
+.section-facing__probe_size_l .section-facing__probe-text
+{
+  font-weight : bold;
+  font-size   : 14px;
+}
+
+.section-facing__probe_size_m
+{
+  flex-basis : 70px;
+}
+
+.section-facing__probe_size_m .section-facing__probe-img
+{
+  width  : 60px;
+  height : 60px;
+}
+
+.section-facing__probe_size_m .section-facing__probe-text
+{
+  font-size : 10px;
+}
+
+.section-facing__probe_size_s
+{
+
+}
+
+.section-facing__probe_size_s .section-facing__probe-img
+{
+  width  : 50px;
+  height : 50px;
+}
+
+.section-facing__probe_size_s .section-facing__probe-text
+{
+  font-size : 12px;
+}
+
+.section-facing__pricing
+{
+  margin-top : 30px;
+}
+
+.section-facing__pricing-price
+{
+  font-weight : bold;
+  font-size   : 14px;
+  color       : #0d8fe3;
+}
+
+.section-facing__pricing_center
+{
+  text-align : center;
+}
+
+.section-facing__pricing-text
+{
+  font-size : 12px;
+}
+
+.section-facing__form
+{
+  flex-shrink : 0;
+}
+
+@media screen and (max-width : 1024px)
+{
+  .section-facing__img
+  {
+    display : none;
+  }
+}
+
+@media screen and (max-width : 768px)
+{
+  .section-facing__form
+  {
+    margin : 30px auto;
+  }
+}
+
+@media screen and (max-width : 375px)
+{
+  .section-facing__form
+  {
+    position      : relative;
+    border-radius : 0;
+    right         : 10px;
+    width         : 100vw;
+  }
+}

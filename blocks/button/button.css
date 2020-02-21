@@ -1,0 +1,108 @@
+.button
+{
+  font-family    : 'Open Sans Condensed', sans-serif;
+  font-weight    : bold;
+  text-transform : uppercase;
+  text-align     : center;
+  cursor         : pointer;
+  font-size      : 20px;
+  line-height    : 20px;
+  border-radius  : 10px;
+  border         : 1px solid #ffc600;
+  box-shadow     : 0 2px 20px 0 #f6cd90;
+  background     : linear-gradient(-90deg, #ffed26 0%, #ffb400 100%);
+}
+
+.button:focus
+{
+  outline : none;
+}
+
+.button__size_l
+{
+  padding : 30px 40px;
+}
+
+.button_size_m
+{
+  padding : 24px 35px;
+}
+
+.button_size_s
+{
+  font-size   : 14px;
+  line-height : 16px;
+  padding     : 13px 18px;
+}
+
+.button_theme_with-icon
+{
+  position     : relative;
+  text-align   : left;
+  padding-left : 54px;
+}
+
+.button_theme_with-icon:after
+{
+  position         : absolute;
+  content          : ' ';
+  width            : 30px;
+  height           : 30px;
+  left             : 13px;
+  top              : 13px;
+  background-image : url(button_theme_with-icon_icon.png);
+}
+
+.button_theme_simple-green
+{
+  font-family : 'Open Sans', sans-serif;
+  box-shadow  : none;
+  background  : none;
+  border      : 2px solid #55a831;
+  color       : #55a831;
+}
+
+@media screen and (max-width : 1024px)
+{
+  .button_size_s
+  {
+    font-size      : 12px;
+    padding-top    : 10px;
+    padding-bottom : 10px;
+  }
+
+  .button_size_m
+  {
+    font-size : 18px;
+    padding   : 20px 30px;
+  }
+}
+
+@media screen and (max-width : 768px)
+{
+  .button_theme_with-icon
+  {
+    text-align   : center;
+    padding-left : inherit;
+  }
+
+  .button__size_l
+  {
+
+  }
+
+  .button_size_m
+  {
+
+  }
+
+  .button_size_s
+  {
+    padding : 9px;
+  }
+
+  .button_theme_with-icon:after
+  {
+    display : none;
+  }
+}

@@ -1,0 +1,42 @@
+.title
+{
+  text-transform : uppercase;
+  position       : relative;
+  text-align     : center;
+  font-weight    : bold;
+  font-size      : 30px;
+  line-height    : 30px;
+  padding-bottom : 30px;
+  margin-bottom  : 70px;
+}
+
+.title:before
+{
+  content          : ' ';
+  position         : absolute;
+  bottom           : 0;
+  left             : 50%;
+  width            : 170px;
+  height           : 2px;
+  margin-left      : -85px;
+  background-image : url(title__underline.png);
+}
+
+.title_theme_light
+{
+  color : #ffffff;
+}
+
+.title_theme_light:before
+{
+  background-image : url(title__underline_theme_light.png);
+}
+
+@media screen and (max-width : 768px)
+{
+  .title
+  {
+    font-size     : 22px;
+    margin-bottom : 50px;
+  }
+}

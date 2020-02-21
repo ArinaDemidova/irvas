@@ -1,0 +1,89 @@
+.header
+{
+  justify-content : space-between;
+  padding         : 20px 10px;
+}
+
+.header__text
+{
+  font-size : 14px;
+}
+
+.header__text_color_blue
+{
+  color : #0089cb;
+}
+
+.header__text_size_m
+{
+  font-weight : bold;
+  font-size   : 18px
+}
+
+.header__text_underline
+{
+  text-decoration : underline;
+}
+
+.header__icon-clock
+{
+  margin-right : 20px;
+  width        : 30px;
+  height       : 30px;
+  background   : url(header__icon-clock.png) no-repeat;
+}
+
+.header__info-phone
+{
+  cursor     : pointer;
+  text-align : right;
+}
+
+.header__icon-phone
+{
+  margin-right : 15px;
+  width        : 20px;
+  height       : 20px;
+  background   : url(header__icon-phone.png) no-repeat;
+}
+
+.header__phone
+{
+  font-style  : normal;
+  font-weight : bold;
+  font-size   : 23px
+}
+
+@media screen and (max-width : 1024px)
+{
+  .header__text
+  {
+    font-size : 12px;
+  }
+
+  .header__job-time
+  {
+    display : none;
+  }
+
+  .header__phone
+  {
+    font-size : 20px;
+  }
+}
+
+@media screen and (max-width : 768px)
+{
+  .header__icon-phone
+  {
+    display : none;
+  }
+}
+
+@media screen and (max-width : 425px)
+{
+  .header__button
+  {
+    display : none;
+  }
+}

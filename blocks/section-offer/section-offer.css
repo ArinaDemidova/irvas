@@ -1,0 +1,88 @@
+.section-offer__stickers
+{
+  display         : flex;
+  align-items     : center;
+  justify-content : space-between;
+  margin-top      : 130px;
+}
+
+.section-offer__sticker
+{
+  margin-right : 20px;
+}
+
+.section-offer__small-text
+{
+  font-weight    : bold;
+  font-size      : 26px;
+  padding-bottom : 10px;
+}
+
+.section-offer__big-text
+{
+  font-weight : bold;
+  font-size   : 55px;
+}
+
+@media screen and (max-width : 1024px)
+{
+  .section-offer__big-text
+  {
+    font-size : 48px;
+  }
+}
+
+@media screen and (max-width : 850px)
+{
+  .section-offer__stickers
+  {
+    flex-wrap  : wrap;
+    width      : 300px;
+    margin-top : 50px;
+  }
+
+  .section-offer__sticker
+  {
+    margin-bottom : 20px;
+  }
+}
+
+@media screen and (max-width : 768px)
+{
+  .section-offer__text-container
+  {
+    text-align : center;
+  }
+
+  .section-offer__big-text
+  {
+    font-size : 44px;
+  }
+
+  .section-offer__stickers
+  {
+    justify-content : space-around;
+    width           : 100%;
+  }
+
+  .section-offer__form
+  {
+    margin : 30px auto 0;
+  }
+}
+
+@media screen and (max-width : 425px)
+{
+  .section-offer__big-text
+  {
+    font-size : 34px;
+  }
+
+  .section-offer__form
+  {
+    position      : relative;
+    border-radius : 0;
+    right         : 10px;
+    width         : 100vw;
+  }
+}

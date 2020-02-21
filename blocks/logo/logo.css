@@ -1,0 +1,46 @@
+.logo__img
+{
+  cursor     : pointer;
+  width      : 145px;
+  height     : 45px;
+  background : url(logo.png) no-repeat center;
+}
+
+.logo__slogan
+{
+  padding-left : 25px;
+}
+
+@media screen and (max-width : 1024px)
+{
+  .logo__img
+  {
+    background-size : cover;
+    width           : 100px;
+    height          : 29px;
+  }
+}
+
+@media screen and (max-width : 768px)
+{
+  .logo__img
+  {
+    width  : 120px;
+    height : 36px;
+  }
+
+  .logo__slogan
+  {
+    display : none;
+  }
+}
+
+@media screen and (max-width : 425px)
+{
+  .logo__img
+  {
+    width  : 100px;
+    height : 29px;
+  }
+}
+

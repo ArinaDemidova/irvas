@@ -1,0 +1,33 @@
+.section-guarantees
+{
+  padding-bottom : 0;
+}
+
+.section-guarantees__stickers
+{
+  display         : flex;
+  justify-content : space-between;
+  flex-wrap       : wrap;
+}
+
+.section-guarantees__stickers .sticker
+{
+  width         : 30%;
+  margin-bottom : 80px;
+}
+
+@media screen and (max-width : 425px)
+{
+  .section-guarantees__stickers .sticker
+  {
+    width : 100%;
+  }
+}
+
+@media screen and (max-width : 425px)
+{
+  .section-guarantees__stickers .sticker
+  {
+    width : 100%;
+  }
+}
